@@ -1,3 +1,6 @@
-# Get Ticker Data
+# 暗号資産(BTC)データ可視化
 
-This project is for retrieving and visualizing stock ticker data. 
+このプロジェクトは、BTC（ビットコイン）の価格データを可視化するためのものです。
+`ohlc_1min_realtime.csv` を読み込み、ローソク足チャートとテクニカル指標（移動平均線、ボリンジャーバンド）を表示します。
+
+## 参考URL 
