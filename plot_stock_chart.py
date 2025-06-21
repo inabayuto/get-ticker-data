@@ -15,6 +15,8 @@ def get_data_dir():
 
 # %% 特徴量エンジニアリング
 def feature_engineering(df):
+    """特徴量エンジニアリング"""
+    # 日付の変換
     df['timestamp'] = pd.to_datetime(df['timestamp'])
     df['date'] = df['timestamp'].dt.date
     df['time'] = df['timestamp'].dt.time
@@ -32,6 +34,7 @@ def feature_engineering(df):
 
 # %% チャートの描画
 def plot_chart(df):
+    """チャートの描画"""
     
     trace1 = {
         'type': 'candlestick', 
@@ -95,6 +98,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-# %%
