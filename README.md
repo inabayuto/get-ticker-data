@@ -5,3 +5,4 @@
 
 ## 参考URL 
 - https://qiita.com/yunosuken/items/4abb12f009c5b3ae831f
+- https://mojitoba.com/2018/10/18/python_ticker_crawling/
