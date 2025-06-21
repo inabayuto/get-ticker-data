@@ -4,3 +4,4 @@
 `ohlc_1min_realtime.csv` を読み込み、ローソク足チャートとテクニカル指標（移動平均線、ボリンジャーバンド）を表示します。
 
 ## 参考URL 
+- https://qiita.com/yunosuken/items/4abb12f009c5b3ae831f
