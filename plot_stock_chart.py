@@ -78,7 +78,7 @@ def plot_chart(df):
         'legendgroup': 'BB', 
     }
     fig = Figure(data=[trace1, trace2, trace3, trace4])
-    return fig.show()
+    return fig
 
 
 # %% メイン処理
@@ -92,7 +92,8 @@ def main():
     data_path = os.path.join(DATA_DIR, "ohlc_1min_realtime.csv")
     df = pd.read_csv(data_path)
     df = feature_engineering(df)
-    plot_chart(df)
+    fig = plot_chart(df)
+    fig.show()
     # データの確認
     return df
 
